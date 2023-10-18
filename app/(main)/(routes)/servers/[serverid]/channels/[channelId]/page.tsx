@@ -3,7 +3,7 @@ import { db } from "@/lib/db";
 import { redirectToSignIn } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 
-import ChatHeader from "@/components/chat/chat-header";
+import {ChatHeader} from "@/components/chat/chat-header";
 
 
 interface ChannelIdPageProps {
