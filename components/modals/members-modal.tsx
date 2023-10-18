@@ -26,7 +26,7 @@ import {
 import { useModal } from "@/hooks/use-modal-store";
 import { ServerWithMembersWithProfiles } from "@/types";
 import { ScrollArea } from "@/components/ui/scroll-area";
-import UserAvatar from "@/components/user-avatar";
+import { UserAvatar } from "@/components/user-avatar";
 import {
   DropdownMenu,
   DropdownMenuContent,
